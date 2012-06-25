@@ -1,0 +1,28 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<artifactId>signer</artifactId>
+		<groupId>com.lucasian.crypt</groupId>
+		<version>0.0.1</version>
+	</parent>
+	<artifactId>signer-api</artifactId>
+	<name>Signer Api</name>
+	<description>Lucasian Signer API</description>
+
+	<build>
+		
+	</build>
+
+	<!--distributionManagement>
+	    <repository>
+        	<id>repo</id>
+	        <url>https://github.com/herrfantastic/maven/raw/master/releases</url>
+	    </repository>
+	    <snapshotRepository>
+	        <id>snapshot-repo</id>
+	        <url>https://github.com/herrfantastic/maven/raw/master/snapshots</url>
+	    </snapshotRepository>
+	</distributionManagement-->
+
+</project>
