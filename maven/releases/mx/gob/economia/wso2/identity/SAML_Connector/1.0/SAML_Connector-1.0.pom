@@ -106,5 +106,5 @@
             <url>C:\projects\Lucasian\public-artifacts\maven\releases</url>
         </repository>
     </distributionManagement>
-
+    <!--mvn -DaltDeploymentRepository=repo::default::file://C:\projects\Lucasian\public-artifacts\maven\releases  clean deploy-->
 </project>
