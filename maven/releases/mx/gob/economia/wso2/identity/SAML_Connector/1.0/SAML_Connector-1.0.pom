@@ -56,18 +56,20 @@
             <artifactId>spring-security-core</artifactId>
             <version>${spring.security.version}</version>
             <scope>provided</scope>
+            <optional>true</optional>
         </dependency>
         <dependency>
             <groupId>org.springframework.security</groupId>
             <artifactId>spring-security-web</artifactId>
             <version>${spring.security.version}</version>
             <scope>provided</scope>
+            <optional>true</optional>
         </dependency>
         <dependency>
             <groupId>org.apache.shiro</groupId>
             <artifactId>shiro-core</artifactId>
             <version>1.2.0</version>
-            <scope>provided</scope>
+            <scope>provided</scope>            
         </dependency>
         <dependency>
             <groupId>org.apache.shiro</groupId>
@@ -97,7 +99,7 @@
         </plugins>
     </build>
     <distributionManagement>
-  <!-- use the following if you're not using a snapshot version. -->
+  
         <repository>
             <id>repo</id>
             <name>Repository Name</name>
