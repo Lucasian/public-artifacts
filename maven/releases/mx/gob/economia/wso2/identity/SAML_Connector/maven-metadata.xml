@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>mx.gob.economia.wso2.identity</groupId>
+  <artifactId>SAML_Connector</artifactId>
+  <version>1.0</version>
+  <versioning>
+    <versions>
+      <version>1.0</version>
+    </versions>
+    <lastUpdated>20120718175220</lastUpdated>
+  </versioning>
+</metadata>
