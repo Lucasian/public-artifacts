@@ -13,8 +13,8 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <spring.security.version>3.1.0.RELEASE</spring.security.version>
-        <spring.version>3.1.1.RELEASE</spring.version>
+        <spring.security.version>2.0.7.RELEASE</spring.security.version>
+        <spring.version>2.5</spring.version>
     </properties>
 
     <dependencies>
@@ -59,10 +59,9 @@
             <optional>true</optional>
         </dependency>
         <dependency>
-            <groupId>org.springframework.security</groupId>
-            <artifactId>spring-security-web</artifactId>
-            <version>${spring.security.version}</version>
-            <scope>provided</scope>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring</artifactId>
+            <version>${spring.version}</version>
             <optional>true</optional>
         </dependency>
         <dependency>
