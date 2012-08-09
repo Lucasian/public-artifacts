@@ -97,6 +97,11 @@
             <version>1.2.0</version>
             <scope>provided</scope>
         </dependency>
+        <dependency>
+            <groupId>org.osgi</groupId>
+            <artifactId>org.osgi.core</artifactId>
+            <version>4.3.0</version>
+        </dependency>
     </dependencies>
     
     <build>
@@ -106,6 +111,20 @@
                 <artifactId>maven-bundle-plugin</artifactId>
                 <version>2.3.7</version>
                 <extensions>true</extensions>
+                <configuration>
+                    <instructions>
+                        <Import-Package>
+                            org.springframework.util;version ="[2.5,4)",
+                            org.springframework.web.context;version ="[2.5,4)",
+                            org.springframework.web.context.support;version="[2.5,4)",
+                            *
+                        </Import-Package>
+                        <Export-Package>
+                            mx.gob.economia.wso2.identity.saml_connector.shiro,
+                            mx.gob.economia.wso2.identity.saml_connector
+                        </Export-Package>
+                    </instructions>
+                </configuration>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
